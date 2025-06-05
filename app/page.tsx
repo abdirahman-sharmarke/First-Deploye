@@ -12,7 +12,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
-                Hello, I'm <span className="text-blue-600">Abdirahman</span>
+                Hello, I&apos;m <span className="text-blue-600">Abdirahman</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
                 I deploy Next.js applications to <span className="text-blue-600 font-semibold">Vercel</span> 
@@ -84,7 +84,7 @@ export default function Home() {
               Ready to Deploy Your Next.js App?
             </h2>
             <p className="text-lg text-gray-600 mb-8">
-              Let's bring your application to life with professional deployment services
+              Let&apos;s bring your application to life with professional deployment services
             </p>
             <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-4 rounded-lg text-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
               Get Started Today
