@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -19,12 +20,16 @@ export default function Home() {
                 with professional expertise and modern development practices
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                  Start Your Project
-                </button>
-                <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-200">
-                  View Portfolio
-                </button>
+                <Link href="/contact">
+                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                    Start Your Project
+                  </button>
+                </Link>
+                <Link href="/about">
+                  <button className="border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-4 rounded-lg text-lg font-medium transition-all duration-200">
+                    View Portfolio
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -86,9 +91,11 @@ export default function Home() {
             <p className="text-lg text-gray-600 mb-8">
               Let&apos;s bring your application to life with professional deployment services
             </p>
-            <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-4 rounded-lg text-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-              Get Started Today
-            </button>
+            <Link href="/contact">
+              <button className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-10 py-4 rounded-lg text-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                Get Started Today
+              </button>
+            </Link>
           </div>
         </section>
       </main>
